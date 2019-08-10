@@ -1,0 +1,10 @@
+{
+    "name": "user/project-bot",
+    "description": "new Project",
+    "type": "project",
+    "require": {
+        "monarkhov/telebot": "dev-dev"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev"
+}

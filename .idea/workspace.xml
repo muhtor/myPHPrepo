@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd1b0d88-cd81-4d28-89c8-1916f6e580d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/controllers/CartController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/controllers/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/controllers/SearchController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/controllers/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/controllers/admin/AppController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/controllers/admin/CacheController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/controllers/admin/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/controllers/admin/MainController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/controllers/admin/OrderController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/controllers/admin/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/controllers/admin/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/models/Breadcrumbs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/models/Cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/models/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/models/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/models/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/models/admin/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/models/admin/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/Cart/cart_modal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/Cart/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/Category/filter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/Category/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/Search/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/User/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/User/signup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/admin/Cache/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/admin/Category/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/admin/Category/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/admin/Category/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/admin/Main/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/admin/Order/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/admin/Order/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/admin/User/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/admin/User/login-admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/layouts/admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/layouts/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/mail/mail_order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/app/widgets/filter/Filter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/public/AdminLTE/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/public/AdminLTE/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/public/menu/category_admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/public/menu/select.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockManagement.loc/vendor/ishop/core/libs/Pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/.idea/stockManagement.loc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/.idea/stockManagement.loc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/app/controllers/CurrencyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/app/controllers/CurrencyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/app/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/app/controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/app/models/AppModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/app/models/AppModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/app/views/Main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/Main/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/app/views/Product/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/Product/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/app/views/layouts/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/layouts/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/app/views/layouts/watches.php" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/app/views/layouts/watches.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/app/widgets/menu/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/app/widgets/menu/Menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/config/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/config/params.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/config/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/public/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/public/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/public/css/memenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/public/css/memenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/public/errors/development.php" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/public/errors/development.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/public/images/no_image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/public/images/no_image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/temp/cache/0832c1202da8d382318e329a7c133ea0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/temp/cache/33b79b7035c61c289e42bb5c8766a9d9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/temp/errors.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/vendor/ishop/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/vendor/ishop/core/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/vendor/ishop/core/base/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/vendor/ishop/core/base/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/vendor/ishop/core/base/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/vendor/ishop/core/base/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockManagement.loc/vendor/ishop/core/libs/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/stockManagement.loc/vendor/ishop/core/libs/function.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/crud.com/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin.com/public/listCommonProducts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin.com/public/inCommProduct.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin.com/public/inCommProductDB.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fetchAll</find>
+      <find>div_id_name</find>
+      <find>loadinggif</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/stockManagement.loc" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ombor.uz/public/listProduct.php" />
+        <option value="$PROJECT_DIR$/ombor.uz/public/listProviders.php" />
+        <option value="$PROJECT_DIR$/ombor.uz/public/updateCategoryForm.php" />
+        <option value="$PROJECT_DIR$/ombor.uz/public/viewProviderProducts.php" />
+        <option value="$PROJECT_DIR$/ombor.uz/public/updateCategoryDB.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/addCategoryForm.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/updateCategoryForm.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/updateCategoryDB.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/listCategories.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/_content.php" />
+        <option value="$PROJECT_DIR$/FirstAjaxProject/main.js" />
+        <option value="$PROJECT_DIR$/FirstAjaxProject/country.php" />
+        <option value="$PROJECT_DIR$/Telegram.com/info.php" />
+        <option value="$PROJECT_DIR$/Telegram.com/telBot.php" />
+        <option value="$PROJECT_DIR$/bot.com/index.php" />
+        <option value="$PROJECT_DIR$/projectBot/setting.php" />
+        <option value="$PROJECT_DIR$/FirstAjaxProject/configAjax.php" />
+        <option value="$PROJECT_DIR$/FirstAjaxProject/jquery/js/two.js" />
+        <option value="$PROJECT_DIR$/FirstAjaxProject/jquery/js/main.js" />
+        <option value="$PROJECT_DIR$/FirstAjaxProject/js/two.js" />
+        <option value="$PROJECT_DIR$/admin.com/public/js/main.js" />
+        <option value="$PROJECT_DIR$/admin.com/public/_footer.php" />
+        <option value="$PROJECT_DIR$/FirstAjaxProject/hindi.php" />
+        <option value="$PROJECT_DIR$/FirstAjaxProject/result.php" />
+        <option value="$PROJECT_DIR$/FirstAjaxProject/index.php" />
+        <option value="$PROJECT_DIR$/FirstAjaxProject/js/main.js" />
+        <option value="$PROJECT_DIR$/admin.com/public/listProviders.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/ajax.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/queryBuilder.php" />
+        <option value="$PROJECT_DIR$/projectBot/vendor/monarkhov/telebot/src/Addons/Keyboard.php" />
+        <option value="$PROJECT_DIR$/projectBot/vendor/monarkhov/telebot/src/Core/Eventer.php" />
+        <option value="$PROJECT_DIR$/projectBot/vendor/monarkhov/telebot/src/Core/Context.php" />
+        <option value="$PROJECT_DIR$/example.com/bot.php" />
+        <option value="$PROJECT_DIR$/projectBot/bot.php" />
+        <option value="$PROJECT_DIR$/telegramApi/composer.json" />
+        <option value="$PROJECT_DIR$/telegramApi/bot.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/addProductDB.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/addProduct.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/_aside.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/listProducts.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/updateProductForm.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/updateProductDB.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/deleteProduct.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/ajaxProvider.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/addProviderDB.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/updateProviderForm.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/updateProviderDB.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/addProviderForm.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/inCommProduct.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/listCommonProducts.php" />
+        <option value="$PROJECT_DIR$/admin.com/public/inCommProductDB.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/crud.com/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/composer" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/crud.com/vendor/phar-io/manifest" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1364" />
+    <option name="height" value="726" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="domains" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domains" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domains" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domains" type="462c0819:PsiDirectoryNode" />
+              <item name="admin.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domains" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domains" type="462c0819:PsiDirectoryNode" />
+              <item name="admin.com" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/telegramApi" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\lesson\Downloads\OSPanel\domains\telegramApi" />
+      <recent name="C:\lesson\Downloads\OSPanel\domains\admin.com\public" />
+      <recent name="C:\lesson\Downloads\OSPanel\domains\ombor.uz\public" />
+      <recent name="C:\lesson\Downloads\OSPanel\domains\marlin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\lesson\Downloads\OSPanel\domains\FirstAjaxProject" />
+      <recent name="C:\lesson\Downloads\OSPanel\domains\admin.com\public" />
+      <recent name="C:\lesson\Downloads\OSPanel\domains\ombor.uz\public" />
+      <recent name="C:\lesson\Downloads\OSPanel\domains\ombor.uz" />
+      <recent name="C:\lesson\Downloads\OSPanel\domains\mysite.com\public" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd1b0d88-cd81-4d28-89c8-1916f6e580d0" name="Default Changelist" comment="" />
+      <created>1562996790423</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562996790423</updated>
+      <workItem from="1562996791663" duration="20000" />
+      <workItem from="1562996835718" duration="23024000" />
+      <workItem from="1563095745765" duration="11714000" />
+      <workItem from="1563163506050" duration="5373000" />
+      <workItem from="1563169855581" duration="25254000" />
+      <workItem from="1563203547786" duration="2741000" />
+      <workItem from="1563251479630" duration="18841000" />
+      <workItem from="1563278145996" duration="4307000" />
+      <workItem from="1563422421863" duration="1228000" />
+      <workItem from="1563424589177" duration="1782000" />
+      <workItem from="1563426672229" duration="1791000" />
+      <workItem from="1563430918804" duration="1783000" />
+      <workItem from="1563432729310" duration="1278000" />
+      <workItem from="1563435641113" duration="1287000" />
+      <workItem from="1563437446506" duration="1792000" />
+      <workItem from="1563439258378" duration="2117000" />
+      <workItem from="1563441631581" duration="1786000" />
+      <workItem from="1563443438949" duration="1790000" />
+      <workItem from="1563445247949" duration="1793000" />
+      <workItem from="1563447068704" duration="1244000" />
+      <workItem from="1563450483115" duration="19000" />
+      <workItem from="1563450542690" duration="12000" />
+      <workItem from="1563450609293" duration="8934000" />
+      <workItem from="1563506864886" duration="5405000" />
+      <workItem from="1563529041323" duration="3995000" />
+      <workItem from="1563596354209" duration="23414000" />
+      <workItem from="1563768243070" duration="21080000" />
+      <workItem from="1563854792399" duration="22694000" />
+      <workItem from="1563943113265" duration="24824000" />
+      <workItem from="1564028368847" duration="14205000" />
+      <workItem from="1564120117950" duration="2835000" />
+      <workItem from="1564138260875" duration="10546000" />
+      <workItem from="1564202365267" duration="25780000" />
+      <workItem from="1564290847792" duration="1712000" />
+      <workItem from="1564371080441" duration="18804000" />
+      <workItem from="1564461618433" duration="20282000" />
+      <workItem from="1564546622043" duration="4844000" />
+      <workItem from="1564556890898" duration="13785000" />
+      <workItem from="1564634327367" duration="23511000" />
+      <workItem from="1564719058001" duration="9649000" />
+      <workItem from="1564738137877" duration="18224000" />
+      <workItem from="1564807849550" duration="20834000" />
+      <workItem from="1564978901254" duration="15684000" />
+      <workItem from="1565064247929" duration="16704000" />
+      <workItem from="1565149706184" duration="668000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="439389000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21331316" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21028744" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FirstAjaxProject/result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="79" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/addCategoryDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/configAdminDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/queryBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectBot/vendor/monarkhov/telebot/src/Addons/Keyboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectBot/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectBot/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectBot/vendor/monarkhov/telebot/src/Core/Bot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example.com/vendor/monolog/monolog/src/Monolog/ErrorHandler.php" />
+    <entry file="file://$PROJECT_DIR$/example.com/vendor/monolog/monolog/src/Monolog/Logger.php" />
+    <entry file="file://$PROJECT_DIR$/example.com/vendor/monolog/monolog/src/Monolog/ResettableInterface.php" />
+    <entry file="file://$PROJECT_DIR$/example.com/vendor/monolog/monolog/src/Monolog/Registry.php" />
+    <entry file="file://$PROJECT_DIR$/example.com/vendor/monolog/monolog/src/Monolog/SignalHandler.php" />
+    <entry file="file://$PROJECT_DIR$/example.com/vendor/monolog/monolog/doc/04-extending.md" />
+    <entry file="file://$PROJECT_DIR$/example.com/vendor/longman/telegram-bot/src/ChatAction.php" />
+    <entry file="file://$PROJECT_DIR$/example.com/composer.json" />
+    <entry file="file://$PROJECT_DIR$/example.com/vendor/autoload.php" />
+    <entry file="file://$PROJECT_DIR$/example.com/composer.lock" />
+    <entry file="file://$PROJECT_DIR$/projectBot/setting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example.com/bot.php" />
+    <entry file="file://$PROJECT_DIR$/telegramApi/composer.json" />
+    <entry file="file://$PROJECT_DIR$/telegramApi/vendor/psr/log/composer.json" />
+    <entry file="file://$PROJECT_DIR$/telegramApi/vendor/autoload.php" />
+    <entry file="file://$PROJECT_DIR$/telegramApi/vendor/longman/telegram-bot/src/Exception/TelegramException.php" />
+    <entry file="file://$PROJECT_DIR$/projectBot/vendor/monarkhov/telebot/src/Core/Eventer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectBot/vendor/monarkhov/telebot/src/Types/Sticker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="46" column="47" lean-forward="true" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectBot/vendor/monarkhov/telebot/src/Types/Base/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegramApi/setting.php" />
+    <entry file="file://$PROJECT_DIR$/telegramApi/bot.php" />
+    <entry file="file://$PROJECT_DIR$/projectBot/vendor/monarkhov/telebot/src/Core/API.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="94" column="20" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectBot/vendor/monarkhov/telebot/src/Core/Context.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/addCategoryForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-314" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/_aside.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/updateProductDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/listProviders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/deleteProduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/listProducts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/addProductDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/updateProductForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/_footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/addProviderDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/ajaxProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="87" lean-forward="true" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectBot/bot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/updateProviderDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="43" column="52" lean-forward="true" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/updateProviderForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="98" column="18" lean-forward="true" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/addProviderForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="64" column="21" lean-forward="true" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/addProduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="20" column="60" lean-forward="true" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/listCommonProducts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/inCommProduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.com/public/inCommProductDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

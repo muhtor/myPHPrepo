@@ -1,0 +1,24 @@
+{
+    "name": "monarkhov/telebot",
+    "description": "Telebot Framework",
+    "type": "library",
+    "license": "MIT",
+    "version": "2.0.4.2",
+    "keywords": ["telegram", "telebot", "bot", "PHP", "video", "stickers", "audio", "files"],
+    "authors": [
+        {
+            "name": "Askold Monarkhov",
+            "email": "askold.monarkhov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "gabordemooij/redbean": "dev-master"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Telebot\\": "src"
+        }
+    }
+}

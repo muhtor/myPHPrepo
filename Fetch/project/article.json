@@ -1,0 +1,37 @@
+[
+  {
+    "article": "1001",
+    "name": "Olma",
+    "description": "Suvli va mazali",
+    "address": {
+      "country": "Uzbekistan",
+      "city": "Namangan",
+      "street": "norin-25",
+      "telephone": ["901234567", "911335468"]
+    }
+  },
+  {
+    "article": "1002",
+    "name": "Anor",
+    "description": "Qizil va totli",
+    "address": {
+      "country": "Uzbekistan",
+      "city": "Toshkent",
+      "street": "Honodod-09",
+      "telephone": ["4548848", "12364"]
+    }
+  },
+  {
+    "article": "1003",
+    "name": "Xurmo",
+    "description": "Foydali va yoqimli",
+    "address": {
+      "country": "Uzbekistan",
+      "city": "Andijon",
+      "street": "gulchi-67",
+      "telephone": ["2347678", "324325"]
+    }
+  }
+]
+
+

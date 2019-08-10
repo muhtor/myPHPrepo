@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Samsung",
+    "model": "Galaxy 2",
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "price": 240,
+    "url": "images/good-1.png"
+  },
+  {
+    "name": "Samsung",
+    "model": "Galaxy 3",
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "price": 245,
+    "url": "images/good-2.png"
+  },
+  {
+    "name": "Samsung",
+    "model": "Galaxy 4",
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "price": 250,
+    "url": "images/good-3.png"
+  },
+  {
+    "name": "Samsung",
+    "model": "Galaxy 5",
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "price": 255,
+    "url": "images/good-4.png"
+  },
+  {
+    "name": "Samsung",
+    "model": "Galaxy 7",
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "price": 260,
+    "url": "images/good-5.png"
+  },
+  {
+    "name": "Samsung",
+    "model": "Galaxy 8",
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "price": 265,
+    "url": "images/good-6.png"
+  },
+  {
+    "name": "Samsung",
+    "model": "Galaxy 9",
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "price": 270,
+    "url": "images/good-7.png"
+  },
+  {
+    "name": "Samsung",
+    "model": "Galaxy 10",
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "price": 275,
+    "url": "images/good-8.png"
+  },
+    {
+    "name": "Samsung",
+    "model": "Galaxy Note",
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "price": 280,
+    "url": "images/good-9.png"
+  },
+    {
+    "name": "Samsung",
+    "model": "Galaxy X",
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "price": 285,
+    "url": "images/good-10.png"
+  }
+]

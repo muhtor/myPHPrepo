@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#json{
+    font-size: 30px;
+    border-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+#text{
+    font-size: 30px;
+    padding: 10px;
+    border-color: black;
+    border-radius: 5px;
+}
+.item{
+    padding: 10px;
+}
+#out{
+    font-size: 18px;
+    font-family: Calibri;
+}
+

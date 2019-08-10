@@ -1,0 +1,22 @@
+
+.container .list div {
+    width: 80%;
+    height: 200px;
+    background-color: #F3FDFF;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container .grid div {
+    float: left;
+    width: 30%;
+    height: 250px;
+    font-size: 14px;
+    background-color: #F3FDFF;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container figure{
+    padding: 20px;
+}
